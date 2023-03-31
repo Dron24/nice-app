@@ -10,7 +10,9 @@
     font-size: 2em;
     color:blue;
     font-weight: bold;
+    font-style: italic;
 }
 .logotype span:last-child{
+    margin-left: -5%;
     font-size: 1.3em;
 }

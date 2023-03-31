@@ -3,7 +3,7 @@
     justify-content: center;
     width: 100%;
     flex: 0 0 auto;
-    background: red;
+    background: rgb(29, 29, 29);
     color: whitesmoke;
     padding:5px 10px
 }
