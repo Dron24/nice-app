@@ -1,8 +1,8 @@
-import './Footer.module.css';
+import st from './Footer.module.css';
 
 function Footer() {
   return (
-    <div>
+    <div className={st.footer}>
         Footer
     </div>
   );

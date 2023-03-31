@@ -1,8 +1,8 @@
-import './Header.module.css';
+import st from './Header.module.css';
 
 function Header() {
   return (
-    <div>
+    <div className={st.header}>
         Header
     </div>
   );

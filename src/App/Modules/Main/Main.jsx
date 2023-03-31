@@ -1,8 +1,8 @@
-import './Main.module.css';
+import stl from './Main.module.css';
 
 function Main() {
   return (
-    <div>
+    <div className={stl.main}>
         Main
     </div>
   );

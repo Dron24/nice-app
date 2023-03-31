@@ -1,0 +1,7 @@
+.footer{
+    display: flex;
+    width: 100%;
+    flex: 0 0 auto;
+    background: black;
+    color: whitesmoke
+}
