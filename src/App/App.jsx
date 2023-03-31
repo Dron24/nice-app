@@ -1,9 +1,15 @@
 import './App.css';
 
+import Header from './Modules/Header/Header';
+import Main from './Modules/Main/Main';
+import Footer from './Modules/Footer/Footer';
+
 function App() {
   return (
     <div className="App">
-      <h1>Привет! Это - хорошее приложение</h1>
+      <Header/>
+      <Main/>
+      <Footer/>
     </div>
   );
 }
