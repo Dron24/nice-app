@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>hello! It`s, nice App</h1>
+      <h1>Привет! Это - хорошее приложение</h1>
     </div>
   );
 }
