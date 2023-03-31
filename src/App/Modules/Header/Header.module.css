@@ -1,7 +1,26 @@
 .header{
     display: flex;
+    justify-content: center;
     width: 100%;
     flex: 0 0 auto;
     background: red;
-    color: whitesmoke
+    color: whitesmoke;
+    padding:5px 10px
+}
+.headerBox{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1360px;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+.item:first-child{
+    justify-content: flex-start;
+}
+.item:last-child{
+    justify-content: flex-end;
 }

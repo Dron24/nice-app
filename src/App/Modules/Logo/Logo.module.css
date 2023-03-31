@@ -1,0 +1,16 @@
+.logotype{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.logotype span{
+    display: flex;
+    
+}
+.logotype span:first-child{
+    font-size: 2em;
+    color:blue;
+    font-weight: bold;
+}
+.logotype span:last-child{
+    font-size: 1.3em;
+}

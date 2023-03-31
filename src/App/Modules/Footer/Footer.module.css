@@ -6,7 +6,7 @@
     flex: 0 0 auto;
     background: black;
     color: whitesmoke;
-    padding: 10px;
+    padding: 5px 10px;
 }
 .footerBox{
     display: flex;
@@ -23,7 +23,7 @@
 .item:first-child {
     cursor: default;
     justify-content: flex-start;
-    
+    font-size: 12px;
 }
 .item:first-child span{
     margin-left: 10px;
