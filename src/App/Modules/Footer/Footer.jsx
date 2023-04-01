@@ -1,5 +1,6 @@
 import st from './Footer.module.css';
 import fakeImg from './fake.jpg'
+import Logo from '../Logo/Logo';
 
 function Footer() {
   return (
@@ -9,7 +10,7 @@ function Footer() {
             &copy; 2023 Степанов А. А. <span>All rights reserved</span>
           </div>
           <div className={st.item}>
-            Пустой бокс
+          <Logo/>
           </div>
           <div className={st.item}>
             <img src={fakeImg} alt="fakeImg"/>
